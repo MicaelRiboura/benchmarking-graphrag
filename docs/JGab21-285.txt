@@ -1,0 +1,405 @@
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 1/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ INSPEÇÃO DIFERENCIADA - VISUAL [PI -ANM -MV9] 7 -AB-106HPA -RJS 
+/ 7-AB-106WA -RJS / P -31 OS: 006000586684  
+Campo  Coordenadas SIRGAS 2000 / MC 39ºW  Instalação  Profundidade  
+Albacora  N: 7.546.729m / E: 399.515 m Ab-106 324m 
+Início de inspeção  19h10min de 06/09/2021 
+Final de inspeção  23h06min de 06/09/2021 
+ 
+1. DIVERGÊNCIAS IDENTIFICADAS NO SGO E ALTERAÇÕES EM ESTRUTURAS SUBMARINAS 
+REALIZADAS PELA EMBARCAÇÃO  
+  Relatório contém as-laid. 
+  Houve interligação, conexão e/ou desconexão de dutos e/ou equipamentos.  
+  Houve alteração no layout submarino.  
+Descrição da divergência encontrada:  Não foram identificadas divergências.  
+2. OBJETIVO  
+• Realizar inspeção  diferenciada visual na ANM do poço 7 -AB-106HPA -RJS, interligado à P -31. 
+3. INFORMAÇÕES PRELIMINARES  
+• Inspeção realizada conforme os procedimentos:  
+✓ PO_INSPEÇÃO DIFERENCIADA – INSPEÇÃO DIFERENCIADA VISUAL _REV.B ; 
+✓ PE-2SUB -00183 Ver_K  - INSPEÇÃO E TESTE FUNCIONAL PERIÓDICOS EM ANM'S, SBCSS'S 
+E MOBO'S ; 
+✓ PE-2SUB -00431 Ver_ I - INSPEÇÃO DIFERENCIADA EM EQUIPAMENTOS SUBMARINOS E 
+CABEÇA DE POÇO;  
+✓ CIDOC -361-621- INSPEÇÃO DIFERENCIADA - VISUAL 7 -AB-106HPA -RJS - 7-AB-106WA -RJS P -
+31. 
+• Relatório anterior SPab21 -008 de 13/01/2021; 
+• Último parecer técnico: PI-ANM -MV9.61757_2021 ; 
+• Realizada a Análise de Segurança da Tarefa com o objetivo de identificar e avaliar os riscos envolvidos na 
+execução da operação, registradas na JSEA Online e TBT, d esenvolvidas pela C -Innovation , e checklist 
+pré-operacional , padrão PETROBRAS ; 
+• ROV equipado com hidrojateador , escova rotativa com cerdas de nylon  e minicâmera  de inspeção (T4) ; 
+• A Inspeção foi acompanhada remotamente pelos representantes responsáveis da OP -OESSE Fagner 
+Machado e Leonardo Carino  (Posto remoto 7 da OneSubsea ). 
+ 
+TABELA 1 – SUMÁRIO DE REVISÕES DO RELATÓRIO  
+Revisão  Data  Descrição e/ou itens atingidos  Revisor  
+0 07/09/2021 Emissão original  Paulo Filho  
+  
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 2/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+  
+3.1. CONDIÇÕES OPERACIONAIS DO POÇO  
+TABELA 3 – CONDIÇÕES OPERACIONAIS  
+Aberto  - Surgente  X 
+Fechado Temporariamente  - Não Surgente  - 
+Fechado  X Injeção  - 
+Estado  3 Elevação  Gás Lift  
+Descrição  Diâmetro  Pressão  Sensores  Pressão  Temperatura  
+Duto de injeção  - - 
+PT / TR  Sem Informação  Umbilical  - - 
+DHSV  Não Possui  
+Condições operacionais fornecidas por  Armando Rocha – Mat.: 9683959 – Operador da Sala de 
+Controle  
+ 
+4. DESCRIÇÃO  
+4.1. CARACTERÍSTICAS DOS EQUIPAMENTOS  
+TABELA 4 – DADOS GERAIS  
+EQUIPAMENTO  Tipo / Modelo  IDENTIFICAÇÃO  STATUS  FABRICANTE  
+Tree Cap  
+GLL / DL  CCB -103 TRAVADO  
+OneSubsea  ANM  CCB -103 TRAVADO  
+BAP  CCB -103 TRAVADO  
+CLF CCB -103 TRAVADO  
+MCV -T CCB -103 TRAVADO  
+ 
+ TABELA 2 – EQUIPE OPERACIONAL  
+Nome  Função  Empresa  Conselho de Classe  
+Vitor Diniz  Superintendente de ROV  C-Innovation  05416944722  
+Vagner Vianna  Supervisor de Operações  C-Innovation  10652422713  
+Paulo Filho  Supervisor de Operações  C-Innovation  03815917948  
+Alan Pereira  Surveyor  C-Innovation  2018526294  
+Israel Lomeus  Surveyor  C-Innovation  2019132737  
+Matheus Caetano  Surveyor  C-Innovation  2014223998  
+Fagner Machado  Representante responsável da OP -OESSE  OneSubsea  09033624737  
+Leonardo Carino  Representante responsável da OP -OESSE  OneSubsea  0131331400  
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 3/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+   
+Foto 1:  Panorâmica da ANM  Foto 2:  Identificação do poço  
+ 
+4.2. STAT US DAS VÁLVULA S 
+TABELA 5 – STATUS DAS VÁLVULAS  
+Painel d a Tree Cap  
+Válvula  Inicial  Final  Válvula  Inicial  Final  Válvula  Inicial  Final  
+DS1 R R M1 N N XO N N 
+DS2 R R M2 R R B1 N N 
+IT1 A A W1 N N B2 N N 
+IT2 A A W2 N N B3 R R 
+Painel AX da Tree Cap  
+ST/AX2  F F ST/AX4  F F - 
+Painel da ANM  
+Válvula  Inicial  Final  Válvula  Inicial  Final  Válvula  Inicial  Final  
+CMP  XO XO XO F F DS1 F F 
+W2 F F CE C/ EFL  C/ EFL  DS2 F F 
+IQ2 U U IQ1 F F ST F F 
+S1 F F M1 F F EL C/EFL C/EFL 
+S2 F F IQ3 F F CE PP  C/ JUMPER  C/ JUMPER  
+M2 F F W1 F F - 
+Painel da BAP  
+Válvula  Inicial  Final  Válvula  Inicial  Final  Válvula  Inicial  Final  
+AI1-H N N HSPP  S/STAB  S/STAB  TC N N 
+AI2-H N N FUNIL  C/STAB  C/STAB  CON  F F 
+AI1 A A ST F F T/D 
+COM  C/ STAB  C/ STAB  
+AI2 A A DS N N MAN  3000psi  3000psi  
+Painel do MCV -TRIPLO  
+Válvula  Inicial  Final  Válvula  Inicial  Final  Válvula  Inicial  Final  
+SWIVEL  A A PP S/ DUMMY  S/ DUMMY  CE C/ DUMMY  C/ DUMMY  
+QH/IQ  IQ IQ R2 N N HSPP  S/STAB  S/STAB  
+AI/PIG  PIG PIG SL F F HS4 C/ STAB  C/ STAB  
+HS2 C/ STAB  C/ STAB  PIG F F TD/CON  T T 
+
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 4/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ HS1 C/ STAB  C/ STAB  HS3 C/STAB  C/STAB  - 
+Painel do CLF ANM  
+Válvula  Inicial  Final  Válvula  Inicial  Final  Válvula  Inicial  Final  
+CLF C/STAB  C/STAB  PARK  S/STAB  S/STAB  - 
+    
+  
+Foto 3:  Painel da Tree Cap  - Face 1  Foto 4:  Painel da ANM – Face 1  
+  
+Foto 5:  Painel da BAP – Face 1  Foto 6:  Painel AX da Treecap  – Face 3  
+  
+Foto 7:  Painel CLF da ANM – Face 3  Foto 8:  Painel do MCV -T – Face 4  
+4.3. TESTE FUNCIONAL DE VÁLVULAS  
+• N/A. 
+ 
+
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 5/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ 4.4. ANODOS  
+• Anodos  do conjunto ANM  com desgaste generalizado médio ; 
+  
+Foto 9:  Anodos da BAP com desgaste  generalizado 
+médio  – Face 1 Foto 10:  Anodos da ANM  com desgaste generalizado 
+médio – Face 2 
+  
+Foto 11:  Anodo  da Treecap  com desgaste 
+generalizado médio  – Face 2 Foto 12:  Anodos d a capa de corrosão da treecap  com 
+desgaste generalizado médio – Face 3 
+ 
+Foto 13:  Anodos do MCV -T com desgaste generalizado médio – Face 4  
+ 
+ 
+ 
+
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 6/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ 4.5. SUCATAS  
+• Observada sucata  no leito marinho  próxima a ANM na face 2 (Foto 14); 
+ 
+Foto 14:  Sucata no leito marinho próxima a ANM – Face 2  
+ 
+4.6. VAZAMENTOS EXTERNOS  
+• Não fo ram observado s vazamento s externo s durante a inspeção.  
+ 
+4.7. MARCAÇÕES E INDICAÇÕES  
+• Indicadores de posição  das válvulas  se encontram legíveis . 
+ 
+4.8. INCRUSTAÇÕES  
+• Incrustações  moles generalizadas.  
+ 
+4.9. DANOS MECÂNICOS  
+• Não foram identificados danos mecânicos relevantes n o conjunto da  ANM.  
+ 
+4.10.  POSTE GUIA  
+• Esta ANM não possui poste guia.  
+ 
+4.11.  CORROSÃO  
+• Observada corrosão generalizada  uniforme  no painel CE do MCV -T (Foto 15) ; 
+
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 7/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ • Observada corrosão generalizada uniforme no manípulo da válvula DS1 e sextavados das válvulas S2, M1, 
+M2, XO e W1 da ANM, conforme mencionado anteriormente no relatório SPab21 -008. 
+ 
+Foto 15:  Corrosão generalizada  uniforme n o painel CE do MCV -T 
+ 
+4.12.  SISTEMA ELETRICO DA ANM  
+• Cabo elétrico conectado  ao painel elétrico da  ANM (Foto 16) . 
+ 
+Foto 16:  Painel elétrico conectado à  ANM  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 8/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ 4.13.  PINTURA  
+• Observad os pequenos empolamentos e descontinuidades nos loops de PO e AN da ANM  (Fotos 17 a 19) . 
+  
+Foto 17:  Descontinuidade na pintura do loop do AN 
+entre o CLF e o bloco da válvula W2 da ANM  Foto 18:  Descontinuidade na pintura do loop do AN 
+entre  a válvula XO e o bloco da válvula W2  da ANM  
+ 
+Foto 19:  Empolamento no loop de PO entre o CLF e o MCV -T 
+ 
+4.14.  GOOSE NECK  DOS MCVs OU EQUIVALENTES  
+• Braços de conexão dos dutos de PO e NA sem goose neck e ponto fusível (Fotos 20 e 21 ); 
+  
+Foto 20:  Braço articulado do duto de PO com o MCV -T Foto 21:  Braço articulado do duto de AN com o MCV -T 
+
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 9/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ 4.15.  CONEXÕES DOS DUTOS  E LINHAS HIDRÁULICAS COM O EQUIPAMENTO    
+  
+Foto 22:  Conexão do duto de PO do MCV -T – Face 1 Foto 23:  Catenária d o duto de PO  do MCV -T – Face 1  
+  
+Foto 24:  Conexão do duto de AN do MCV -T – Face 3 Foto 25:  Catenária do duto de AN do MCV -T – Face 1  
+  
+Foto 26:  Conexão do duto de UEH  do MCV -T – Face 3  Foto 27:  Catenária do duto de UEH do MCV -T – Face 1  
+ 
+4.16.  MEDIÇ ÃO DE POTENCIAL ELETROQUÍMICO  
+• N/A. 
+ 
+1,5m 3m 
+1,5m 3m 2m 3m 
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 10/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ 5. CONCLUSÃO  
+• Realizada inspeção na ANM  do poço 7-AB-106WA -RJS, sendo identificado o seguinte : 
+✓ Não foram observados danos mecânicos relevantes  e vazamentos externos ; 
+✓ Observado corrosão generalizada uniforme no painel CE do MCV -T e no manípulo da válvula DS1 e 
+sextavados das válvulas S2, M1, M2, XO e W1 da ANM, conforme mencionado no relatório SPab21 -008; 
+✓ Observados pequenos empolamentos e descontinuidades nos loops de PO e AN da ANM;  
+✓ Observada sucata  no leito marinho próxima a estrutura da ANM ; 
+✓ Os anodos de todo conjunto da ANM apresentam desgaste generalizado médio ; 
+✓ Presença de  incrustações moles em  todo conjunto;  
+✓ Os indicadores de travamento de todos os conectores estão na posição “Travado” . 
+  
+RELATÓRIO DE SERVIÇO  NÚMERO:  
+JGab21-285  
+INSPEÇÃO DIFERENCIADA DE EQUIPAMENTO SUBMARINO  DATA: 06/09/2021  
+RSV JOE GRIFFIN  PÁG.: 11/11 
+C-INNOVATION DO BRASIL - A SERVIÇO DA PETROBRAS S/A  
+DP&T/SUB/OPSUB/MIS/IPSE - CONTRATOS DP&T Nº 5900.0113818.19.2 & 5900.0113822.19.2  ANEXOS: 2  
+  
+PRESTADOR DE SERVIÇOS RESPONSÁVEL PELA 
+EMISSÃO DO DOCUMENTO E EXECUÇÃO DO SERVIÇO  FISCALIZAÇÃO ONSHORE  
+SUB/SSUB/MIS/MI -AUP  
+Vitor Magalhães Diniz  Wagner Meira Almeida Ramos  Anderson Luiz Alves Salgado  
+CFT: 05416944722  Matr.: 973518 -6 Matr.: 960393 -9 
+Superintendente de ROV  SUB/SSUB/MIS/MI -AUP  SUB/SSUB/MIS/MI -AUP  
+ TABELA 6 – CONCLUSÃO  
+Pergunta  Resposta  Referência / Observação  
+(A) A equipe executora recebeu o procedimento, 
+bem como as informações necessárias para 
+realizar este serviço?  ☒SIM ☐ NÃO   
+(B) A equipe executora realizou a leitura do 
+procedimento para executar este serviço e suas 
+atividades foram planejadas e delineadas 
+adequadamente?  ☒SIM ☐ NÃO   
+(C) A equipe executora realizou a leitura da análise 
+de risco relativa a este serviço (APR, ARS, etc.)?  ☒SIM ☐ NÃO   
+(D) A equipe executora avaliou que todos os 
+recursos estavam operacionais e disponíveis 
+para realizar as atividades deste serviço?  ☒SIM ☐ NÃO   
+(E) Foi identificada divergência no SGO ou Cadastro 
+submarino em relação ao objeto de intervenção?  ☐SIM ☒ NÃO   
+(F) O relatório possui as laid ? ☐SIM ☒ NÃO   
+(G) Foi identificado algum obstáculo sobre o objeto 
+de intervenção capaz de causar danos a sua 
+integridade?  ☐SIM ☒ NÃO   
+(H) Foi identificado algum tipo de escape de fluido?  ☐SIM ☒ NÃO   
+(I) Foi identificada alguma avaria no objeto de 
+intervenção?  ☒SIM ☐  NÃO  Corrosão generalizada uniforme no 
+painel CE do MCV -T e no manípulo da 
+válvula DS1 e sextavados das válvulas 
+S2, M1, M2, XO e W1 da ANM, 
+conforme mencionado no relatório 
+SPab21 -008; 
+Pequenos empolamentos e 
+descontinuidades nos loops de PO e 
+AN da AN M. 
+(J) Foi identificado algum reparo no objeto de 
+intervenção?  ☐SIM ☒ NÃO   
+(K) Foram identificados cruzamentos ou outras 
+interferências?  ☐SIM ☒ NÃO   
+(L) Foi identificada a ocorrência de anomalias 
+críticas?  ☐SIM ☒ NÃO   
+(M) Houve limitações em alguma parte da operação 
+que dará a necessidade de complemento com 
+outro recurso?  ☐SIM ☒ NÃO   
+(N) As medições de potencial eletroquímico 
+indicaram algum componente desprotegido?   ☐SIM ☐ NÃO  N/A 
+ 
+6. ANEXOS  
+ 
+• 01 HD contendo vídeos e imagens da operação ; 
