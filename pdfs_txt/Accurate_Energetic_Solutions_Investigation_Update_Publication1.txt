@@ -1,0 +1,511 @@
+**Fatal Explosion at Accurate Energetic Systems McEwen, Tennessee** | _Incident Date: October 10, 2025_ | **No. 2025-TN-I-04** 
+
+**==> picture [389 x 16] intentionally omitted <==**
+
+**==> picture [84 x 39] intentionally omitted <==**
+
+**U.S. Chemical Safety and Hazard Investigation Board** 
+
+**==> picture [526 x 6] intentionally omitted <==**
+
+## **Investigation Update** 
+
+## March 2026 
+
+This document provides an update on the CSB’s investigation of the October 10, 2025, incident at Accurate Energetic Systems, LLC. 
+
+## **Incident Summary** 
+
+On October 10, 2025, at 7:47 a.m., multiple catastrophic explosions fatally injured 16 employees at the Accurate Energetic Systems, LLC (“AES”) facility in McEwen, Tennessee ( **Figure 1** ). Another employee was seriously injured in the incident, and six additional employees reported injuries. The incident occurred in a building used to manufacture commercial explosive products. The explosions razed the building and launched debris up to 700 feet [1]. The blast reportedly was felt more than 20 miles away. At the time of the incident, approximately 24,600 pounds of explosives were in the building, approximately 23,000 pounds of which were consumed in multiple detonations. Roughly 1,000 pounds of unexploded energetic material that had been launched from the building were recovered on-site and subsequently disposed of by burning it on-site. 
+
+**==> picture [547 x 184] intentionally omitted <==**
+
+**Figure 1.** Incident building before (left) and after (right) the October 10, 2025, incident. (Credit: Google Earth (left); WZTV Nashville [2] (right)) 
+
+**==> picture [409 x 17] intentionally omitted <==**
+
+1 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+## **Background Information** 
+
+## **ACCURATE ENERGETIC SYSTEMS** 
+
+- Accurate Energetic Systems, LLC (“AES”) is an explosives manufacturer located in McEwen, Tennessee. AES manufactures explosive products for military, aerospace, mining, avalanche control, and commercial demolition markets [3, 4]. At the time of the incident, AES employed approximately 140 people. 
+
+- AES has several buildings at the McEwen site, which are used to produce the company’s different explosive products. The incident occurred in Building 602, where, on the day of the incident, AES was manufacturing explosive charges[a] called cast boosters. In the production process, AES melted explosives in agitated, steamjacketed kettles. AES employees hand-poured the molten material into cardboard or plastic tubes, which cooled and solidified into the cast boosters. This process is known as a “melt-pour” operation [5]. Building 602 housed a manufacturing area that produced the explosive products, a warehouse that stored non-explosive (“inert”) materials, a steam boiler room, a printer room, a break room, and two personnel offices. A preincident photo of Building 602 is shown in **Figure 2** . 
+
+**==> picture [536 x 227] intentionally omitted <==**
+
+**Figure 2.** Pre-incident photo of Building 602. (Credit: AES) 
+
+> a A charge is a mass of explosives capable of detonating when triggered by an initiation mechanism, such as a detonating cord, which is a flexible cord containing a core of high explosives used to detonate other explosives. 49 CFR 173.59 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+2 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+## **EXPLOSIVES** 
+
+- The incident occurred in an area of Building 602 that processed “high explosives,” which are substances designed to produce a supersonic[a] decomposition reaction, called a detonation [6, pp. 297, 303]. The high explosives involved in this incident were “secondary explosives,”[b] meaning they were designed to require the use of a “primary explosive”[c] to initiate[d] an explosive reaction. Secondary explosives, however, may still be ignited by other sources of energy, such as heat, friction, or impact [6, p. 312, 7, p. 138]. 
+
+- The materials involved in the incident are described below. 
+
+## EXPLOSIVES IN THE BUILDING AT THE TIME OF THE INCIDENT 
+
+- **Trinitrotoluene (TNT)** – TNT is a high explosive that has been used in industrial and military applications since the late 1800s. TNT melts at 81 degrees Celsius (℃) or 178 degrees Fahrenheit (℉). Because of its low melting point and stability, it is frequently melted and then poured into explosive charges [8, pp. 350-358]. This process is described in the **Process Description** section below. 
+
+- **Cyclotrimethylene Trinitramine (RDX)** – RDX is a solid, white, crystalline high explosive. RDX can be mixed with TNT-based explosives to allow it to be easily loaded into charges. RDX was developed in the late 1800s and became a common military explosive in World War II [8, pp. 69-75, 9, p. 77]. 
+
+- **Pentaerythritol Tetranitrate (PETN)** – PETN is a solid, white, crystalline high explosive. PETN was originally developed in the late 1800s but was not manufactured industrially until after World War I. PETN can be desensitized[e] by mixing it with wax [8, pp. 277-280, 10, pp. 175-185]. 
+
+- **RDX Composition B (“Comp B”)** – Comp B is a mixture of 60 percent RDX and 40 percent TNT, prepared by adding powdered or crystalline RDX to molten TNT. Comp B melts at 80℃ (176℉) and can be poured to make explosive charges [8, pp. 46-50]. 
+
+- **Tritonal** – Tritonal is a mixture of 80 percent TNT and 20 percent aluminum. Tritonal has similar properties to TNT but with increased explosive power [8, pp. 386-389]. 
+
+- **Pentolite** – Pentolite is a mixture of 10 to 60 percent PETN and 40 to 90 percent TNT. Pentolite is prepared via a slurry that coats PETN particles with TNT. Once prepared, Pentolite melts around 76℃ (169℉) and can be poured to make explosive charges [8, pp. 272-275]. 
+
+a A supersonic reaction produces a pressure wave that propagates faster than the speed of sound [21, pp. 10-11]. 
+
+> b A secondary explosive is “an explosive substance which is relatively insensitive (when compared to primary explosives) and is usually initiated by primary explosives with or without the aid of boosters or supplementary charges.” 49 CFR § 173.59 
+
+> c A primary explosive is an explosive substance that is sensitive to heat, impact, or friction, and even in small quantities, detonates. Examples of primary explosives include mercury fulminate, lead azide, and lead styphnate. 49 CFR § 173.59 
+
+> d Initiation is the start of the reaction that results in the deflagration or detonation in an explosive material [13, p. 23]. e 
+
+> Desensitized explosives are solid or liquid explosive chemicals which have had a substance or coating, such as wax, to make the material less sensitive to heat, shock, impact, or friction. 29 CFR § 1910.1200 B.17 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+CSB Public Record 
+
+**Investigation Update** 
+
+## RAW MATERIAL ORIGIN AND DEBRIS 
+
+- AES purchases explosive materials from U.S. and international sources. On the day of the incident, Building 602 housed new and demilitarized explosive materials. Demilitarized explosive materials are reclaimed or repurposed military-grade explosives intended for industrial use. 
+
+- AES employees reported that some demilitarized material can contain debris. AES operators reported to the CSB that they regularly observed debris, including clothing, bottle caps, metal screws and nuts, plants, insects, tar, and rocks, in demilitarized material processed in Building 602. 
+
+## CAST BOOSTERS 
+
+- At the time of the incident, AES manufactured cast boosters, which are solidified explosives housed in cardboard or plastic tubes.[a] Cast boosters are used in various industries, such as mining, demolition, and avalanche control. The main charge makes up the majority of the volume of explosives in the booster and is designed to detonate following an explosive shock from an initiator, such as a blasting cap[b] or detonating cord[c] .  As part of the production process, AES also placed a solid PETN core, composed of what AES termed a “top hat” and “through hole” pellet, into the cast booster assembly to ensure that the main charge detonated as intended ( **Figure 3** ). 
+
+> a Building 602 was the only building in which AES manufactured cast boosters.  Because Building 602 was completely destroyed, AES no longer has the capability manufacture cast boosters. 
+
+> b A blasting cap is a small explosive device containing a primary explosive that is combined with a fuse to detonate a larger explosive [29, 13, p. 13]. 
+
+> c A detonating cord is a flexible cord containing a center core of high explosives that is used to initiate other explosives. 30 CFR § 56.6000 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+4 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**==> picture [351 x 327] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+PETN<br>Core<br>**----- End of picture text -----**<br>
+
+
+**Figure 3** . AES depiction of cast boosters (Credit: AES [11]) 
+
+## EXPLOSIVE INITIATION AND SENSITIVITY 
+
+- Explosives initiate when stimulated by sufficient energy to form localized areas of temperature rise, or “hot spots,” which can transition to explosion. Some explosive materials are also considered shock-sensitive, meaning they can be initiated by an external shock. A shock can be generated from several mechanisms, including physical impact, hydraulic shock, or a pressure (shock) wave. This shock sensitivity of some explosives can result in sympathetic detonations, which are follow-on detonations induced by the explosive effects of an initiating explosion [12, pp. 3, 23-25]. 
+
+- When assessing explosives for their potential to ignite or explode, materials are subjected to tests that determine their sensitivity to various forms of initiation energy, or the energy required to start the deflagration or detonation of an explosive material [13, p. 23]. Initiation energy is most often applied via impact (collision between surfaces), friction (movement between surfaces), electrostatic discharge (ESD), or heat. **Table 1** shows general impact sensitivities and decomposition temperatures of the materials stored in Building 602 at the time of the incident. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+5 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**Table 1** . Sensitivity data of various explosives. 
+
+|**Table 1**. Sensitivity data of various explosives.||
+|---|---|
+|**Impact**<br>**Drop Height H50a (m)**<br>**Impact**<br>**Energy (J)**<br>**Decomposition**<br>**Temperature(℃)**|**Data**<br>**Source**|
+|**TNT(Solid)**<br>0.95<br>18.6<br>240<br>**TNT(Molten)**<br>0.05-0.08b<br>1.0-1.6b|[8, pp. 350-357]|
+||[14, p. 11]|
+|**Comp B(Solid)**<br>0.75<br>14.7<br>368<br>**Comp B(Molten)**<br>0.31<br>6.1|[8, p. 46]|
+||[15, pp. 12-14]|
+|**Tritonal(Solid)**<br>0.85<br>16.7<br>240|[8, p. 386]|
+|**Pentolite(Solid)**<br>0.34<br>6.7<br>150|[8, p. 272]|
+|**PETN(Solid)**<br>0.17<br>3.3<br>190|[8, p. 276], [16, p. 4]|
+
+
+
+- As an illustration of sensitivity, a molten TNT detonation can be initiated from impact energy that is comparable to the energy of a cell phone striking the ground from a 2.5-foot drop height. Similarly, a solid TNT detonation can be initiated from impact energy that is comparable to the energy of a 4-pound textbook being dropped from an approximate height of 3.5 feet. 
+
+## BUILDING 602 
+
+- Building 602, the incident building, was constructed in 2012 and consisted of a warehouse storing inert materials and an explosive product manufacturing area, separated by support facilities, including the supervisor offices, printing room, break room, bathrooms, and a room housing the boiler and other mechanical equipment ( **Figure 4** ). The explosive manufacturing area was two stories tall, with six kettles on the upper floor (mezzanine level), and three kettles on the ground level. Building 602 was not equipped with a sprinkler or deluge fire protection system. In August 2016, AES received approval from the Tennessee state fire marshal to use an early detection system as an alternative to a fire protection system in Building 602. The early detection system consisted of FIKE fire detection cameras, smoke detectors, heat detectors, pull stations, and detectors in the air conditioning units. 
+
+> a Impact sensitivity reported based on the drop height (H50) of a given weight on a sample of the explosive that corresponds to a 50 percent probability of a sample initiating or exploding [22]. 
+
+> b A range of values is given for the molten TNT because testing was performed on molten TNT over a temperature range of 90-130 ℃ to show the changes in sensitivity, even once TNT is in the molten state [14]. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+6 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**==> picture [514 x 347] intentionally omitted <==**
+
+**Figure 4** . Layout of the ground level of Building 602. The explosive manufacturing area is outlined in orange, and the warehouse is outlined in green. (Credit: AES modified by CSB) 
+
+- AES limited the number of personnel in Building 602 to 40 employees and 10 transient personnel[a] during normal operations. Based on the location (“siting”)[b] of Building 602 relative to other structures, AES established a net explosive weight limit of 30,000 pounds of explosives in Building 602, which were all located on the manufacturing side of the building.[c] This limit on explosives inventory included the raw materials, in-process boosters, and finished product. AES did not store or process explosives in the warehouse section of the building. 
+
+> a Transient personnel are defined as individuals or persons with official business on a production line or operation but are not part of the assigned staff of an explosive operation building and are only temporarily present during operations [31, p. 327]. 
+
+> b Explosive safety siting limits the quantity of explosives allowed in the building based on the damage or injury potential of the explosives and the separation distance between surrounding buildings [6, p. 87]. 
+
+> c Net Explosive Weight (NEW) is defined as, “Expressed in pounds, the total weight of all explosive substances” [7, p. 173].  Explosive limits should be based on the amount of ammunition and explosives, “required for the operation.” [28, p. 19] 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+7 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+## **PROCESS DESCRIPTION** 
+
+- The typical melt/pour process performed in Building 602 is described below. 
+
+## KETTLE LOADING AND MELTING 
+
+- To prepare for the melt/pour operation, AES workers would obtain solid, flaked TNT-based explosives from storage and deliver these materials to Building 602. A kettle operator would empty these explosive materials onto a wheeled, aluminum sorting table[a] on the mezzanine level and visually inspect for and remove identified debris. The table was equipped with magnets to capture and remove any ferrous metal debris. AES’s sorting and inspection process equipment is shown in **Figure 5** . 
+
+**==> picture [527 x 229] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Kettles Table Opening<br>Sorting Table<br>**----- End of picture text -----**<br>
+
+
+**Figure 5** . Sorting table (circled on the left) next to the mezzanine-level kettles and TNT-based explosives in bags on sorting table before inspection (right). (Credit: AES, modified by CSB) 
+
+- After initial inspection, the operator would transfer the explosives by manually pushing the material through a hole on the sorting table into one of six empty steam-jacketed, agitated kettles, located on the mezzanine level, to melt the explosives ( **Figure 5** ). 
+
+> a The sorting table had wheels installed to allow the operator to move the table to different kettles. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+8 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+- As the batch of explosive material was heated, a U-shaped, anchor-style agitator[a] slowly rotated inside the kettle to mix the kettle’s contents. Once the mixture was melted, mixed, and reached the desired temperature, the operator would transfer the material to one of two ground-level kettles, either Kettle A or Kettle B ( **Figure 6** ). There was also a third kettle, Kettle Z, that was used for reprocessing materials. The ground level kettles were then heated while a propeller-style agitator continually mixed the contents. After this process was completed, the molten explosive material was ready to be poured into the booster tubes, as described below. 
+
+**==> picture [417 x 376] intentionally omitted <==**
+
+**Figure 6** . Simplified diagram of the melt/pour process (Credit: CSB) 
+
+- AES had the capacity to pour from Kettle B and Kettle A concurrently to produce two different product lines, based on production needs. 
+
+> a Anchor agitators are U-shaped such that the blades match the shape of the kettle interior and can rotate with small clearance to the vessel wall [30, pp. 621-622]. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+9 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+## CAST BOOSTER PREPARATION AND POURING 
+
+- On the ground floor, operators prepared the booster tubes to receive the molten explosives. Wheeled carts were staged, and metal fixtures, called “pin bars,” were inserted into the carts’ frames. Operators would put the empty tubes onto the pin bars and place a PETN core on one of the pins inside each tube. **Figure 7** shows a photo and depiction of the tubes situated on the pin bars. 
+
+**==> picture [525 x 254] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+PETN Core<br>**----- End of picture text -----**<br>
+
+
+**Figure 7.** Carts with staged booster tubes on pin bars (left) and depiction of how a booster tube was oriented on pin bars (right). (Credit: AES (left) and schematic by CSB (right)) 
+
+- After installing the PETN core, the tubes were ready to be filled with molten explosives. The prepared booster tube assemblies were moved to the pouring area, where the operators would pour the molten explosive into the tubes. Operators dipped a plastic pitcher into the kettle and then hand-poured the liquid into the prepared tubes, as shown in **Figure 8** . 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+10 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**==> picture [450 x 237] intentionally omitted <==**
+
+**Figure 8** . AES operator pouring TNT mixture into tubes. (Credit: AES, Redaction by CSB) 
+
+- After being filled, the cast boosters were cooled at room temperature, allowing the molten material to solidify within the tubes. Once the molten material solidified, operators would use a pneumatic press to remove the cast boosters from the pin bars. Any excess material on the outside of the tubes was removed before packaging. Finally, operators manually packed the cast boosters into boxes and prepared them for shipment. 
+
+## **Incident Description** 
+
+- On Sunday, October 5, 2025, AES started production of various cast booster products in Building 602. AES planned to operate three 8-hour shifts per day until the end of the first shift on Friday, October 10. AES scheduled first-shift operators to work 7:00 a.m. to 3:30 p.m., second-shift operators 3:00 p.m. to 11:30 p.m., and third shift operators 11:00 p.m. to 7:30 a.m.[a] 
+
+- At 7:30 a.m. on October 10, the third-shift operators departed Building 602 as first-shift operators arrived to continue the pouring operation of the Kettle A and Kettle B production lines. When the first-shift operators arrived, approximately 24,600 pounds of explosives were present in Building 602 at various stages of processing, including raw materials, molten explosives, and finished products. 
+
+> a Building 602 typically operated the melt/pour process continuously from the start of the second shift on Sunday (3:00 p.m.) until the end of the first shift on Friday (3:00 p.m.). 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+11 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+- Ten operators were working the first shift, which was scheduled to begin at 7:00 a.m., on October 10. Based on surveillance footage from Building 602, the CSB determined that the operators were performing the following activities between 7:30 a.m. and 7:47 a.m.: 
+
+   - Two operators were pouring a melted mixture of Comp B and Tritonal from Kettle A into 14-ounce boosters; 
+
+   - One operator was pouring melted Comp B from Kettle B into 11-pound boosters; 
+
+   - One operator was managing the upstairs kettles; 
+
+   - One operator was repackaging finished Pentolite boosters from the previous day, due to a shortage of packing material during that shift; 
+
+   - One operator was wrapping pallets; 
+
+   - Two operators were setting up booster tubes for pouring; and, 
+
+   - Two operators were removing solidified boosters from the pin bars and were packaging them for shipping. 
+
+- Six other employees were also in the building at the time of the incident: 
+
+   1. An operations manager who assisted with production; 
+
+   2. An operations manager whose office was in Building 602; 
+
+   3. A first-shift supervisor; 
+
+   4. A third-shift supervisor, who was completing turnover tasks; 
+
+   5. A maintenance technician, who was likely completing a boiler system maintenance task; and 
+
+   6. A shipping and receiving clerk, who was managing inert goods on the warehouse side of Building 602. 
+
+- At 7:47 a.m., the first explosion occurred in Building 602. Based on the debris field and blast indications, this first explosion likely occurred on the ground floor. The pressure wave from the initial detonation likely caused other explosives in the building to sympathetically detonate. In total, approximately 23,000 pounds of the explosive material detonated, deflagrated, or burned.[a] 
+
+- All 16 people inside the building were fatally injured. One maintenance employee, who was located inside a vehicle near Building 602 at the time of the incident, was seriously injured. Six other employees working in or near other buildings at the complex reported injuries. 
+
+> a Approximately 1,000 pounds of unexploded energetic material that had been launched from the building were recovered on-site and subsequently disposed of by burning it on-site. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+12 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+- Following the incident, Building 602’s foundation was cleared to reveal damage and craters, indicating the locations where high explosives detonated in the building at the time of the incident ( **Figure 9** ). 
+
+**==> picture [521 x 394] intentionally omitted <==**
+
+**Figure 9** . Building 602’s foundation after the incident with walls and equipment overlaid. Craters and foundation damage are indicated in red. (Credit: ATF via WKRN [17] with annotations by CSB) 
+
+- The Bureau of Alcohol, Tobacco, Firearms, and Explosives (ATF), which responded initially to the incident, recovered approximately 1,000 pounds of unexploded energetic material that was launched from the building. This explosive material was disposed of by burning it on-site [1]. 
+
+- AES reported to the CSB that the incident resulted in approximately $4.3 million in property damage. Building 602 was completely destroyed as a result of the incident ( **Figure 10** ), and nine additional buildings within the AES complex were damaged ( **Figure 11** ). 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+13 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**==> picture [506 x 341] intentionally omitted <==**
+
+**Figure 10** . Post-incident photo of the Building 602 location after the foundation was cleared.[a] (Credit: CSB) 
+
+a The sign shown in the figure is a Department of Defense (DoD) Fire Division Symbol indicating a mass detonation hazard. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+14 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**==> picture [478 x 414] intentionally omitted <==**
+
+**Figure 11** . Map of buildings damaged by the incident. (Credit: Google Earth with annotations by CSB) 
+
+- Debris from the event was propelled over 700 feet from Building 602. At least six of the nine kettles were recovered after the incident. A kettle was found more than 700 feet from the initial location ( **Figure 12** ). Explosion debris was found scattered throughout the wooded area surrounding the building. The incident destroyed vehicles located in the parking lot, approximately 250 feet from the building ( **Figure 12** ). 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+15 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+**==> picture [509 x 341] intentionally omitted <==**
+
+**Figure 12** . Debris locations from the explosion (Credit: WSJ [18], annotations and inset by CSB) 
+
+- People reported feeling the blast 20 miles from the facility [19, p. 1]. According to the United States Geological Survey, the incident was registered as a 1.6 magnitude seismic event [20]. 
+
+- In the hour before the incident, several AES employees either had been near, performed activities in, or were planning to visit Building 602: 
+
+   - Five third-shift operators left Building 602 between 10 and 45 minutes before the incident. 
+
+   - One lab technician left Building 602 after collecting production samples and performing water testing. 
+
+   - One maintenance employee was returning a company vehicle to Building 602. 
+
+   - One manager was heading toward Building 602 immediately before the incident. 
+
+- Various agencies responded to the incident, including: 
+
+   - Bureau of Alcohol, Tobacco, Firearms, and Explosives (ATF); 
+
+   - Federal Bureau of Investigation (FBI); 
+
+   - Tennessee Occupational Safety and Health Administration (TOSHA);[a] 
+
+   - Various departments under the State of Tennessee; and 
+
+   - Various local county and city first responders. 
+
+a TOSHA opened an inspection in response to the incident, which is ongoing at the time of this Investigation Update’s publication [32]. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+16 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+## **Path Forward** 
+
+- The CSB is continuing to gather facts and analyze several key areas, including: 
+
+   - Cause or probable cause of the potential initiating event(s); 
+
+   - AES’s explosive safety and process safety management programs; 
+
+   - Equipment design of the kettles used at the AES facility; 
+
+   - Sensitivities of in-process explosive materials; and 
+
+   - Industry guidance for commercial facilities that manufacture explosives. 
+
+- The investigation is ongoing. Complete findings, analyses, and recommendations, if appropriate, will be detailed in the CSB’s final investigation report. 
+
+**==> picture [76 x 35] intentionally omitted <==**
+
+CSB Public Record 
+
+17 
+
+**Investigation Update** 
+
+## **References** 
+
+- [1] D. Quigley, C. Wethington and C. Maynard, "2 victims still not found 2 weeks after 24K pounds of explosives detonated at TN munitions plant," WSMV 4, 23 October 2025. [Online]. Available: https://www.wsmv.com/2025/10/24/2-victims-still-not-found2-weeks-after-24k-pounds-explosives-detonated-tn-munitions-plant/. [Accessed 23 January 2026]. 
+
+- [2]  FOX 17 WZTV Nashville, "Deadly Tennessee plant explosion relief efforts expand with local nonprofit aid," 22 October 2025. [Online]. Available: https://fox17.com/news/local/deadly-tennessee-plant-explosion-relief-efforts-expand-with-local-nonprofit-aidhumphreys-hickman-county-line. [Accessed 23 January 2026]. 
+
+- [3]  AES, "About AES," [Online]. Available: https://web.archive.org/web/20251010164830/https://www.aesys.biz/about. [Accessed 10 10 2025]. 
+
+- [4]  Association of the United States Army, "Accurate Energetic Systems, LLC," [Online]. Available: https://www.ausa.org/sponsors/accurate-energetic-systems-llc. [Accessed 03 12 2025]. 
+
+- [5]  L. J. C. P. J. C. Irving Forsten, "Apparatus for Continuous Melt-Pour of High Explosives". Patent 3,766,820, 23 October 1973. 
+
+- [6]  Department of Defense (DoD), DoD 6055.09-STD DoD Ammunition and Explosives Safety Standards, February 29, 2008. 
+
+- [7]  Department of Defense (DoD), DOD Manual 4145.26, DOD Contractor's Safety Manual For Ammunition and Explosives, 2008. 
+
+- [8]  U.S. Army Materiel Command, Engineering Design Handbook: Explosives Series Properties of Explosives of Military Interest, 1971. 
+
+- [9]  T. Urbanski, Chemistry and Technology of Explosives, Vol. III, Warszawa: PWN - Polish Scientific Publishers, 1967. 
+
+- [10] T. Urbanski, Chemistry and Technology of Explosives, Vol. II, Warszawa: PWN - Polish Scientific Publishers, 1965. 
+
+- [11] Accurate Energetic Systems, "AES Cast Booster," 14 January 2017. [Online]. Available: https://web.archive.org/web/20170114020423/http://aesys.biz/wp-content/uploads/AES-Cast-Booster.pdf. [Accessed 22 January 2026]. 
+
+- [12] Center for Chemical Process Safety/AIChE (CCPS), "1.3.8 Shock Sensitivity," in _Guidelines for Safe Storage and Handling of Reactive Materials_ , 1995, pp. 3, 23-25. 
+
+- [13] Institute of Makers of Explosives, "Safety Library Publication 12 - Glossary of Commercial Explosives Industry Terms," Washington, D.C., 2010. 
+
+- [14] R. J. Mainiero and Y. Miron, "Impact, Thermal, and Shock Sensitivity of Molten TNT and of Asphalt-Contaminated Molten TNT," 1996. 
+
+- [15] U.S. Army Materiel Command, Engineering Design Handbook, Principles of Explosive Behavior, AMCP 706-180, 1972. 
+
+- [16] Austin Powder, "Safety Data Sheet - PETN," 21 September 2020. [Online]. Available: https://www.austinpowder.com/wpcontent/uploads/2021/08/FDS-SHES-APA-023-PETN.En-1.pdf. [Accessed January 2026]. 
+
+- [17] P. O'Donnell and A. Patton, "20K+ Pounds of 'High Explosives' Detonated in Deadly Blast at Tennessee Plant, Officials Say," WKRN, 24 October 2025. [Online]. Available: https://www.wkrn.com/news/local-news/atf-to-provide-update-on-deadly-aesfacility-explosion/. [Accessed 5 January 2026]. 
+
+- [18] The Wall Street Journal, "Inside the High-Risk Business of Explosives Manufacturing," 16 November 2025. [Online]. Available: https://www.wsj.com/business/regulators-bypassed-building-602-then-it-blew-up-8ac7d564. [Accessed 26 January 2026]. 
+
+- [19] J. Mattise, "The fatal blast at a minilary munitions factory was a chain reaction of up to 28,000 pounds of explosives," Fortune, 25 October 2025. [Online]. Available: https://fortune.com/2025/10/25/fatal-blast-military-munitions-factory-tennessee-accurateenergetic-systems-explosives/. [Accessed 30 December 2025]. 
+
+- [20] United States Geological Survey (USGS), "M 1.6 Explosion - 20 km NE of Lobelville, Tennessee," 10 October 2025. [Online]. Available: https://earthquake.usgs.gov/earthquakes/eventpage/us6000rgcb/origin/detail. [Accessed 30 December 2025]. 
+
+- [21] D. Crowl, "2.6 Kinetics and Thermochemistry," in _Understanding Explosions_ , Center for Chemical Process Safety/AIChE (CCPS), pp. 10-11. 
+
+- [22] W. Liu, Q. J. Liu, M. Zhong and e. al, "Predicting impact sensitivity of energetic materials: insights from energy transfer of carriers," _Acta Materialia,_ 2022. 
+
+- [23] Merriam-Webster, "Ordnance," 2026. [Online]. Available: https://www.merriam-webster.com/dictionary/ordnance. [Accessed 27 January 2026]. 
+
+- [24] United Nations Office for Disarmament Affairs (UNODA), "INTERNATIONAL AMMUNITION TECHNICAL GUIDELINES: Demilitarization, destruction and logistic disposal of conventional ammunition (Third Edition)," 2021. 
+
+- [25] Defence Research and Development Canada, "Literature review on demilitarization of munitions," 2010. 
+
+- [26] Defense Logistics Agency, "Demil Items," [Online]. Available: https://www.dla.mil/Disposition-Services/Offers/LawEnforcement/DEMIL-Information/. [Accessed 27 January 2026]. 
+
+**==> picture [77 x 36] intentionally omitted <==**
+
+18 
+
+CSB Public Record 
+
+**Investigation Update** 
+
+- [27] National Academies, "Alternatives for the Demilitarization of Conventional Munitions," 2019. [Online]. Available: https://www.nationalacademies.org/read/25140/chapter/4. [Accessed 27 January 2026]. 
+
+- [28] Department of the Army, "Pamphlet 385-64 Ammunition and Explosives Safety Standards," Washington, 2023. 
+
+- [29] Merriam-Webster, "Blasting Cap," 2026. [Online]. Available: https://www.merriam-webster.com/dictionary/blasting%20cap. [Accessed 4 February 2026]. 
+
+- [30] R. Sinnott and G. Towler, "Stirred Tanks," in _Chemical Engineering Design (6th Edition)_ , Elsevier, 2020. 
+
+- [31] Department of the Army, "Pamphlet 385-64 Ammunition and Explosives Safety Standards," Washington D.C., 2011. 
+
+- [32] Occumpational Safety and Health Administration, "Inspection: 1855764.015 - Accurate Energetic Systems, Llc," [Online]. Available: https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1855764.015. [Accessed 5 March 2025]. 
+
+**==> picture [77 x 36] intentionally omitted <==**
+
+19 
+
+CSB Public Record 
+

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "naive-rag-opensearch"
+version = "0.1.0"
+description = "Modulo independente de Naive RAG com OpenSearch"
+requires-python = ">=3.10"
+dependencies = [
+  "openai",
+  "opensearch-py",
+  "python-dotenv",
+]
+
+[project.scripts]
+naive-rag-opensearch = "naive_rag_opensearch.cli:main"

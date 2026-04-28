@@ -1,4 +1,34 @@
 services:
+  opensearch:
+    image: opensearchproject/opensearch:2.17.1
+    container_name: opensearch-naive-rag
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      OPENSEARCH_INITIAL_ADMIN_PASSWORD: ${OPENSEARCH_INITIAL_ADMIN_PASSWORD:-N@iverag123}
+      # plugins.security.disabled: "true"
+      # DISABLE_SECURITY_PLUGIN: "true"
+      # DISABLE_INSTALL_DEMO_CONFIG: "true"
+      OPENSEARCH_JAVA_OPTS: -Xms512m -Xmx512m
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "9300:9200"
+      - "9700:9600"
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS -k -u admin:N@iverag123 https://localhost:9200 >/dev/null || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 40s
+
   neo4j:
     build:
       context: .
@@ -29,7 +59,46 @@ services:
       retries: 10
       start_period: 30s
 
+  comparison:
+    build:
+      context: .
+      dockerfile: docker/comparison/Dockerfile
+    container_name: comparison-rag
+    restart: unless-stopped
+    depends_on:
+      opensearch:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    ports:
+      - "${COMPARISON_JUPYTER_PORT:-8889}:8888"
+    env_file:
+      - graphrag-neo4j-langchain/.env
+      - naive-rag-opensearch/.env
+    environment:
+      # Enderecos internos da rede docker-compose.
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: ${NEO4J_USERNAME:-neo4j}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-graphrag123}
+      OPENSEARCH_HOST: opensearch
+      OPENSEARCH_PORT: 9300
+      OPENSEARCH_USERNAME: ${OPENSEARCH_USERNAME:-admin}
+      OPENSEARCH_PASSWORD: ${OPENSEARCH_PASSWORD:-N@iverag123}
+      PYTHONPATH: /workspace/graphrag-neo4j-langchain/src:/workspace/naive-rag-opensearch
+    command: >
+      jupyter lab
+      --ip=0.0.0.0
+      --port=8888
+      --no-browser
+      --allow-root
+      --NotebookApp.token=
+      --NotebookApp.password=
+
 volumes:
+  opensearch_data:
   neo4j_data:
   neo4j_logs:
   neo4j_import:
