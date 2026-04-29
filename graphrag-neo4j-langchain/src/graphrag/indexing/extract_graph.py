@@ -1,0 +1,381 @@
+"""Extract entities, relationships, claims, and covariates from TextUnits; persist to Neo4j."""
+
+import hashlib
+import os
+import re
+from typing import Any, Dict, List, Optional, Tuple
+
+from langchain_core.prompts import ChatPromptTemplate
+from pydantic import BaseModel, Field
+
+from graphrag.config import (
+    ENTITY_DESCRIPTION_MAX_CHARS,
+    EXTRACT_MAX_INPUT_TOKENS,
+)
+from graphrag.llm_factory import create_chat_llm
+from graphrag.retrieval.token_budget import truncate_to_tokens
+from graphrag.indexing.entity_resolution import (
+    backfill_entity_keys_cypher,
+    make_entity_key,
+    merge_canonical_name_and_aliases,
+    normalize_token,
+    resolve_surface_to_entity_key,
+)
+from graphrag.store.neo4j_graph import get_neo4j_graph
+
+
+class Entity(BaseModel):
+    name: str
+    type: str = Field(description="e.g. Person, Place, Organization, Concept")
+    description: str = ""
+
+
+class Relationship(BaseModel):
+    source: str = Field(description="Entity name")
+    target: str = Field(description="Entity name")
+    type: str = Field(description="Relationship type")
+    description: str = ""
+
+
+class Claim(BaseModel):
+    subject: str = Field(description="Entity name the claim is about (must match an extracted entity when possible)")
+    text: str = Field(description="Single atomic factual claim supported by the text")
+    claim_type: str = Field(
+        default="fact",
+        description="Kind: fact, statistic, causal, comparison, temporal, other",
+    )
+    status: str = Field(
+        default="asserted",
+        description="asserted | hedged | conditional (how strongly the text supports it)",
+    )
+
+
+class Covariate(BaseModel):
+    entity_name: str = Field(description="Entity name this attribute belongs to")
+    attribute: str = Field(description="Attribute name, e.g. volume_mcf, year, disposition_type")
+    value: str = Field(description="Value as string")
+    unit: str = Field(default="", description="Unit if applicable, else empty")
+    covariate_kind: str = Field(
+        default="attribute",
+        description="measurement | categorical | temporal | geographic | other",
+    )
+
+
+class ExtractedGraph(BaseModel):
+    entities: List[Entity] = Field(default_factory=list)
+    relationships: List[Relationship] = Field(default_factory=list)
+    claims: List[Claim] = Field(default_factory=list)
+    covariates: List[Covariate] = Field(default_factory=list)
+
+
+EXTRACT_SYSTEM = """You are an expert at extracting structured knowledge from text.
+For the given text chunk, extract:
+1) Entities: people, places, organizations, concepts — name, type, short description.
+2) Relationships between entities: source, target, relationship type, short description.
+3) Claims: atomic factual statements; subject (entity name), text, claim_type (fact/statistic/causal/comparison/temporal), status (asserted/hedged/conditional).
+4) Covariates: entity_name, attribute, value, optional unit, covariate_kind (measurement/categorical/temporal/geographic).
+Only use information explicitly stated or clearly implied in the text."""
+
+EXTRACT_SYSTEM_OIL_GAS = """You are an expert in industrial incident investigation data extraction, particularly for chemical and explosive manufacturing accidents.
+
+For the given text chunk, extract:
+
+1. **Entities and relationships** explicitly present or clearly implied.
+   Prioritize entities such as:
+
+   * Facility (e.g., plant, building)
+   * Organization (e.g., company, agency)
+   * Location (City, State, Site)
+   * Incident (explosion, fire, detonation)
+   * Material (explosives, chemicals)
+   * Equipment (kettles, systems)
+   * Process (e.g., melt-pour operation)
+   * Personnel (operators, employees)
+
+   Use relationship types such as:
+
+   * LOCATED_IN (Facility → Location)
+   * OPERATED_BY (Facility → Organization)
+   * OCCURRED_AT (Incident → Facility)
+   * INVOLVES_MATERIAL (Incident/Process → Material)
+   * USES_EQUIPMENT (Process → Equipment)
+   * PART_OF_PROCESS (Step → Process)
+   * CAUSED_BY / CONTRIBUTED_TO (Incident → Cause/Factor)
+   * RESULTED_IN (Incident → Outcome such as fatalities, damage)
+   * OCCURRED_ON (Incident → Time)
+
+2. **Claims**:
+
+   * Extract one fact per item.
+   * Assign a `claim_type` (e.g., incident_fact, casualty_statistic, material_property, process_description, damage_report).
+   * Assign `status`:
+
+     * **asserted** (explicitly stated)
+     * **hedged** (uncertain, e.g., “likely”, “reportedly”, “approximately”).
+
+3. **Covariates**:
+   Extract structured attributes in the format:
+
+   * entity_name
+   * attribute (e.g., fatalities, explosive_mass, temperature, distance, time)
+   * value
+   * unit (if applicable)
+   * covariate_kind (e.g., measurement, temporal, spatial, operational, material_property)
+
+Additional guidelines:
+
+* Normalize entity names when possible (e.g., “Accurate Energetic Systems, LLC” → consistent canonical form).
+* Preserve technical terminology (e.g., TNT, RDX, detonation, melt-pour).
+* Prefer quantitative and safety-relevant information when available.
+* Do not infer beyond what is stated or strongly implied in the text.
+"""
+
+
+def _build_extract_prompt() -> ChatPromptTemplate:
+    domain = os.environ.get("GRAPHRAG_EXTRACT_DOMAIN", "").strip().lower()
+    system_prompt = EXTRACT_SYSTEM_OIL_GAS if domain == "oil_gas" else EXTRACT_SYSTEM
+    return ChatPromptTemplate.from_messages(
+        [
+            ("system", system_prompt),
+            ("human", "Text:\n{text}"),
+        ]
+    )
+
+
+def _get_extract_chain():
+    llm = create_chat_llm(temperature=0)
+    structured_llm = llm.with_structured_output(ExtractedGraph)
+    return _build_extract_prompt() | structured_llm
+
+
+def extract_from_text(text: str) -> ExtractedGraph:
+    """Extract structured graph from one TextUnit; entrada limitada por tokens (config)."""
+    raw = (text or "").strip()
+    if EXTRACT_MAX_INPUT_TOKENS and EXTRACT_MAX_INPUT_TOKENS > 0:
+        raw = truncate_to_tokens(raw, EXTRACT_MAX_INPUT_TOKENS)
+    chain = _get_extract_chain()
+    return chain.invoke({"text": raw})
+
+
+def _stable_id(*parts: str) -> str:
+    h = hashlib.sha256("|".join(parts).encode("utf-8")).hexdigest()[:28]
+    return h
+
+
+def _norm_desc(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "").strip())
+
+
+def merge_entity_descriptions(
+    existing: Optional[str],
+    incoming: str,
+    *,
+    max_chars: int = ENTITY_DESCRIPTION_MAX_CHARS,
+    separator: str = "\n---\n",
+) -> str:
+    """
+    Acumula descrições da mesma entidade ao longo de vários TextUnits (estilo GraphRAG).
+    Evita duplicar texto idêntico ou contido; limita o tamanho total.
+    """
+    inc = (incoming or "").strip()
+    old = (existing or "").strip()
+    if not inc:
+        return old
+    if not old:
+        return inc[:max_chars] if max_chars > 0 else inc
+    if _norm_desc(inc) == _norm_desc(old):
+        return old
+    if inc in old:
+        return old
+    if old in inc:
+        return inc[:max_chars] if max_chars > 0 else inc
+    for part in old.split(separator):
+        if _norm_desc(part) == _norm_desc(inc):
+            return old
+    merged = old + separator + inc
+    if max_chars <= 0 or len(merged) <= max_chars:
+        return merged
+    mid = "\n---\n...[truncated]...\n---\n"
+    usable = max_chars - len(mid)
+    if usable < 64:
+        return merged[-max_chars:]
+    head_budget = usable // 2
+    tail_budget = usable - head_budget
+    head = old[:head_budget]
+    tail = inc[-tail_budget:] if len(inc) > tail_budget else inc
+    out = head + mid + tail
+    return out[:max_chars]
+
+
+def _dedupe_entities_for_chunk(entities: List[Entity]) -> List[Entity]:
+    """Uma entidade canónica por (nome normalizado, tipo normalizado) no mesmo TextUnit."""
+    merged: dict[Tuple[str, str], Entity] = {}
+    for e in entities:
+        key = (normalize_token(e.name), normalize_token(e.type))
+        if key not in merged:
+            merged[key] = e
+            continue
+        cur = merged[key]
+        desc = merge_entity_descriptions(cur.description, e.description)
+        longer_name = cur.name if len(cur.name) >= len(e.name) else e.name
+        longer_type = cur.type if len(cur.type) >= len(e.type) else e.type
+        merged[key] = Entity(name=longer_name, type=longer_type, description=desc)
+    return list(merged.values())
+
+
+def _norm_name_to_entity_keys(deduped: List[Entity]) -> Dict[str, List[str]]:
+    m: Dict[str, List[str]] = {}
+    for e in deduped:
+        k = make_entity_key(e.name, e.type)
+        m.setdefault(normalize_token(e.name), []).append(k)
+    return m
+
+
+def persist_extraction_to_neo4j(tu_id: str, extraction: ExtractedGraph) -> None:
+    """Persiste grafo com resolução por `entity_key`, aliases e ligações resolvidas por nome canónico."""
+    graph = get_neo4j_graph()
+    driver = graph._driver
+    with driver.session() as session:
+        deduped = _dedupe_entities_for_chunk(extraction.entities)
+        norm_map = _norm_name_to_entity_keys(deduped)
+
+        for e in deduped:
+            ekey = make_entity_key(e.name, e.type)
+            row = session.run(
+                """
+                MATCH (ex:Entity {entity_key: $k})
+                RETURN ex.description AS d, ex.name AS n, ex.aliases AS a
+                """,
+                k=ekey,
+            ).single()
+            prev_desc = row["d"] if row else None
+            description_merged = merge_entity_descriptions(prev_desc, e.description)
+            prev_aliases = list(row["a"]) if row and row.get("a") else None
+            canon, aliases = merge_canonical_name_and_aliases(
+                row["n"] if row else None,
+                prev_aliases,
+                e.name,
+            )
+            session.run(
+                """
+                MERGE (x:Entity {entity_key: $entity_key})
+                SET x.name = $name,
+                    x.type = $type,
+                    x.description = $description,
+                    x.aliases = $aliases
+                WITH x
+                MATCH (t:TextUnit {id: $tu_id})
+                MERGE (t)-[:MENTIONS]->(x)
+                """,
+                entity_key=ekey,
+                name=canon,
+                type=e.type.strip(),
+                description=description_merged,
+                aliases=aliases,
+                tu_id=tu_id,
+            )
+
+        for r in extraction.relationships:
+            sk = resolve_surface_to_entity_key(session, r.source, norm_map)
+            tk = resolve_surface_to_entity_key(session, r.target, norm_map)
+            if not sk or not tk:
+                continue
+            session.run(
+                """
+                MATCH (a:Entity {entity_key: $sa}), (b:Entity {entity_key: $sb})
+                MERGE (a)-[rel:RELATES_TO {type: $rtype}]->(b)
+                ON CREATE SET rel.description = $description
+                """,
+                sa=sk,
+                sb=tk,
+                rtype=r.type,
+                description=r.description,
+            )
+
+        for cl in extraction.claims:
+            cid = _stable_id("claim", tu_id, cl.subject, cl.text, cl.claim_type, cl.status)
+            session.run(
+                """
+                MERGE (c:Claim {id: $cid})
+                SET c.text = $text,
+                    c.subject = $subject,
+                    c.source_tu = $tu_id,
+                    c.claim_type = $claim_type,
+                    c.status = $status
+                """,
+                cid=cid,
+                text=cl.text,
+                subject=cl.subject,
+                tu_id=tu_id,
+                claim_type=(cl.claim_type or "fact").strip() or "fact",
+                status=(cl.status or "asserted").strip() or "asserted",
+            )
+            session.run(
+                """
+                MATCH (c:Claim {id: $cid}), (t:TextUnit {id: $tu_id})
+                MERGE (t)-[:EVIDENCE_FOR]->(c)
+                """,
+                cid=cid,
+                tu_id=tu_id,
+            )
+            ek = resolve_surface_to_entity_key(session, cl.subject, norm_map)
+            if ek:
+                session.run(
+                    """
+                    MATCH (e:Entity {entity_key: $ek}), (c:Claim {id: $cid})
+                    MERGE (e)-[:HAS_CLAIM]->(c)
+                    """,
+                    ek=ek,
+                    cid=cid,
+                )
+
+        for cv in extraction.covariates:
+            vid = _stable_id("cov", tu_id, cv.entity_name, cv.attribute, cv.value)
+            session.run(
+                """
+                MERGE (v:Covariate {id: $vid})
+                SET v.name = $attr,
+                    v.value = $value,
+                    v.unit = $unit,
+                    v.source_tu = $tu_id,
+                    v.entity_name = $entity_name,
+                    v.covariate_kind = $cov_kind
+                """,
+                vid=vid,
+                attr=cv.attribute,
+                value=cv.value,
+                unit=cv.unit or "",
+                entity_name=cv.entity_name,
+                tu_id=tu_id,
+                cov_kind=(cv.covariate_kind or "attribute").strip() or "attribute",
+            )
+            session.run(
+                """
+                MATCH (v:Covariate {id: $vid}), (t:TextUnit {id: $tu_id})
+                MERGE (t)-[:EVIDENCE_FOR]->(v)
+                """,
+                vid=vid,
+                tu_id=tu_id,
+            )
+            ek = resolve_surface_to_entity_key(session, cv.entity_name, norm_map)
+            if ek:
+                session.run(
+                    """
+                    MATCH (e:Entity {entity_key: $ek}), (v:Covariate {id: $vid})
+                    MERGE (e)-[:HAS_COVARIATE]->(v)
+                    """,
+                    ek=ek,
+                    vid=vid,
+                )
+
+
+def run_extract_on_chunks(chunks: List[dict]) -> None:
+    """Run extraction on each chunk. Each chunk is a dict with tu_id and text."""
+    if chunks:
+        with get_neo4j_graph()._driver.session() as session:
+            backfill_entity_keys_cypher(session)
+    for chunk in chunks:
+        tu_id = chunk.get("tu_id", str(id(chunk)))
+        text = chunk.get("text", "")
+        extraction = extract_from_text(text)
+        persist_extraction_to_neo4j(tu_id, extraction)
