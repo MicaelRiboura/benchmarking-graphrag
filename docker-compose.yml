@@ -73,6 +73,9 @@ services:
     working_dir: /workspace
     volumes:
       - ./:/workspace
+      # Evita que venv/.venv do host sobrescrevam o ambiente Python da imagem.
+      - comparison_venv:/workspace/venv
+      - comparison_dotvenv:/workspace/.venv
     ports:
       - "${COMPARISON_JUPYTER_PORT:-8889}:8888"
     env_file:
@@ -103,3 +106,5 @@ volumes:
   neo4j_logs:
   neo4j_import:
   neo4j_plugins:
+  comparison_venv:
+  comparison_dotvenv:
