@@ -1,0 +1,27 @@
+{
+  "name": "benchmarking-graphrag (comparison)",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "comparison",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "overrideCommand": false,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.terminal.activateEnvironment": false
+      }
+    }
+  },
+  "forwardPorts": [8888],
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter Lab (container)",
+      "onAutoForward": "notify"
+    }
+  }
+}
