@@ -12,8 +12,7 @@ RUN apt-get update \
 
 COPY requirements.txt /tmp/requirements.txt
 
-RUN python -m pip install --no-cache-dir -r /tmp/requirements.txt \
-    && python -m pip install --no-cache-dir ipykernel jupyterlab opensearch-py
+RUN python -m pip install --no-cache-dir -r /tmp/requirements.txt
 
 EXPOSE 8888
 
